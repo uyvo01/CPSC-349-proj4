@@ -13,12 +13,12 @@
   "description": null,
   "version": "0.0.0",
   "scripts": {
-    "start": "react-scripts start",
+    "run": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "pocketbase": "./pocketbase serve",
-    "run": "npm-run-all --parallel start pocketbase"
+    "start": "npm-run-all --parallel run pocketbase"
   },
   "browserslist": {
     "production": [
